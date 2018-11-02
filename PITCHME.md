@@ -1,5 +1,5 @@
 
-# Python előzetes
+## Python előzetes
 
 ---
 
@@ -382,4 +382,4 @@ wait_times.mean()
 
 ---
 
-# Köszönöm a figyelmet!
+## Köszönöm a figyelmet!
