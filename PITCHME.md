@@ -3,7 +3,7 @@
 
 ---
 
-# Miért Python?
+## Miért Python?
 
 - általános, objektumorientált, alacsony belépési korlát, ragasztónyelv, moduláris, dimanikus, interpretált
 - ingyenes, masszív közösség — közel valós idejű segítség a stackoverflow-n (is)
@@ -14,7 +14,7 @@
 
 ---
 
-# Alapinformációk
+## Alapinformációk
 
 - verziók 2-es vs 3-as, sajnos nem mindegy, pl.  `print "Gomba"` vs `print("Ananász")`
 - konzol: interaktív (mint az R)
@@ -23,7 +23,7 @@
 
 ---
 
-# Alapvető szintaktika, adattípusok
+## Alapvető szintaktika, adattípusok
 
 - arithmetika: kétféle osztás a számábrázolás miatt, modulo azaz `%`, `math` modul
 - bool logika
@@ -46,7 +46,7 @@
 	
 ---
 	
-# Adatszerkezetek
+## Adatszerkezetek
 
 ## Listák
 
@@ -117,7 +117,7 @@ for animal in animals:
 	
 ---
 			              
-# Függvény deklaráció
+## Függvény deklaráció
 
 ```
 
@@ -133,7 +133,7 @@ def using_control_once():
 
 ---
 	
-# Feltételvizsgálat és elágaztatás
+## Feltételvizsgálat és elágaztatás
 
 ```
 
@@ -186,7 +186,7 @@ print(math.sqrt(25))
 from module import function
 from module import *
 
-# de nem jó ötlet mindent importálni, névütközés léphet fel
+## de nem jó ötlet mindent importálni, névütközés léphet fel
 
 ```
 
@@ -197,7 +197,7 @@ from module import *
 	
 ---
 
-# Hurkok
+## Hurkok
 
 - amíg a `condition == True` addig kiértékelésre kerül a kódblokk (identáció) 
 - `while condition:`
@@ -206,7 +206,7 @@ from module import *
 
 ---
 
-# Egyéb mélyebb témák
+## Egyéb mélyebb témák
 
 - list comprehension: pl. `evens_to_50 = [i for i in range(51) if i % 2 == 0] # for/in/if`
 - lista szeletelés: 
@@ -214,7 +214,7 @@ from module import *
 ```
 
 l = [i ** 2 for i in range(1, 11)]
-# Should be [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+## Should be [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 
 print(l[2:9:2])
 
@@ -234,7 +234,7 @@ print(l[2:9:2])
 my_list = range(16)
 print(filter(lambda x: x % 3 == 0, my_list))
 
-# többször használatos függvényt persze, továbbra is érdemes def-fel deklarálni
+## többször használatos függvényt persze, továbbra is érdemes def-fel deklarálni
 
 ```
 
@@ -248,7 +248,7 @@ print(filter(lambda x: x % 3 == 0, my_list))
 
 ---
 
-# Objektumorientált
+## Objektumorientált
 
 - az osztály egy adatstruktúra definíciója: pl. gyümölcs, dolgozó
 - az objektum az osztály egy megvalósult példánya
@@ -273,7 +273,7 @@ print(filter(lambda x: x % 3 == 0, my_list))
 
 ---
 
-# „Ragasztó” nyelv
+## „Ragasztó” nyelv
 
 - talán minden programnyelvhez van összeköttetése
 - különböző programozási nyelvek eltérő képességeit egy összefogó nyelvvel egyesíteni lehet
@@ -281,7 +281,7 @@ print(filter(lambda x: x % 3 == 0, my_list))
 
 ---
 
-# Alkalmazás az MNB-ben
+## Alkalmazás az MNB-ben
 
 - a GNU R kiegészítésére alkalmas — a Python hívható R-ből, és fordítva
 - alacsonyabb belépési korlát, az R tanulásában is hasznos
@@ -306,7 +306,7 @@ print(filter(lambda x: x % 3 == 0, my_list))
 
 ---
 
-# Szimulációs példa: várakozási paradoxon
+## Szimulációs példa: várakozási paradoxon
 
 - 10 percenként jár a busz
 - joggal (pontosabban: naívan) feltételezhetjük, hogy átlagosan 5 percet kell várakoznunk rá
