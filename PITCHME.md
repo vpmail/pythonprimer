@@ -48,7 +48,9 @@
 	
 ## Adatszerkezetek
 
-## Listák
+---
+
+### Listák
 
 ```
 
@@ -99,7 +101,7 @@ for animal in animals:
 
 ---
 
-## Szótárak
+### Szótárak
 
 - olyan mint a lista, csak kulccsal (névvel) és nem index-szel tudunk az elemekre hivatkozni
 - szintaktikája kapcsos zárójel, pl.: `residents = {'Puffin' : 104, 'Sloth' : 105, 'Burmese Python' : 106}`
